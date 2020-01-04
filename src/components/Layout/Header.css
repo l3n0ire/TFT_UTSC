@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.link-style{
+    color:#fff;
+    text-decoration:none;
+    float:right;
+}
+header{
+    background:black;
+    color:#fff;
+    height :8vh;
+    padding: 1vh 8vw;
+}
+header h1{
+    float:left;
+}
