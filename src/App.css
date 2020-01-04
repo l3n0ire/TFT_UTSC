@@ -19,11 +19,16 @@ img{
   max-width: 86vw;
 }
 .welcome-container{
-  margin:2em 0;
   height:80vh;
+  text-align: center;
+
+}
+.welcome-container div{
+  height:30vh;  
+  background-color: red;
+  vertical-align: middle;
 }
 .welcome-container h1{
   color:white;
-  font-size: 100px;
-
+  font-size: 8em;
 }

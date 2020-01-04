@@ -25,7 +25,6 @@ class App extends Component {
     <div className="App">
       <Header/>
 
-      <div className="container">
 
       <Route exact path="/" render={props => (
         //Homepage content goes here
@@ -33,12 +32,15 @@ class App extends Component {
           <div className="welcome-container" style={{backgroundImage: `url(${tft})`}}>
             <h1>Teamfight UTSC</h1>
           </div>
+          <div className="container">
+          </div>
+
+
         </React.Fragment>
       )}/>
       
       <Route path="/about" component = {About}/>
 
-      </div>
 
     </div>
     </Router>
