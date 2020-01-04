@@ -21,12 +21,8 @@ img{
 .welcome-container{
   height:80vh;
   text-align: center;
-
-}
-.welcome-container div{
-  height:30vh;  
-  background-color: red;
-  vertical-align: middle;
+  background-image: url('images/tft.jpg');
+  background-size: cover;
 }
 .welcome-container h1{
   color:white;
