@@ -6,11 +6,9 @@ function Header() {
     return (
         <header>
             <h1>Teamfight UTSC</h1>
-            <div className="links">
             <Link className="link-style" to='/'>Home</Link>
             
             <Link className="link-style" to='/about'>About</Link>
-            </div>
 
         </header>
         

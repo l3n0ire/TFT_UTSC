@@ -6,14 +6,15 @@
 .link-style{
     color:#fff;
     text-decoration:none;
-    float:right;
+    flex:1;
 }
 header{
     background:black;
     color:#fff;
     height :8vh;
     padding: 1vh 8vw;
+    display:flex;
 }
 header h1{
-    float:left;
+    flex:10;
 }
