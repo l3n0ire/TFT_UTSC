@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Header from './components/Layout/Header';
 import About from './components/pages/About';
 import Index from './components/pages/Index'
-import './App.css';
 
 
 class App extends Component {
