@@ -26,9 +26,10 @@ img{
 .welcome-container div{
   height:30vh;  
   background-color: red;
-  vertical-align: middle;
+  
 }
 .welcome-container h1{
   color:white;
   font-size: 8em;
+  vertical-align: middle;
 }
