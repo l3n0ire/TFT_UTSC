@@ -30,4 +30,5 @@ img{
 .welcome-container h1{
   color:white;
   font-size: 8em;
+  text-shadow: 2px 2px #333333;
 }
