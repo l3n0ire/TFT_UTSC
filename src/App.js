@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Header from './components/Layout/Header';
 import About from './components/pages/About';
 import './App.css';
-import tft from'./images/tft.jpg'
 
 
 class App extends Component {
@@ -29,7 +28,7 @@ class App extends Component {
       <Route exact path="/" render={props => (
         //Homepage content goes here
         <React.Fragment>
-          <div className="welcome-container" style={{backgroundImage: `url(${tft})`}}>
+          <div className="welcome-container">
             <h1>Teamfight UTSC</h1>
           </div>
           <div className="container">
