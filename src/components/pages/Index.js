@@ -9,7 +9,9 @@ function Index() {
           <h1>Teamfight UTSC</h1>
         </div>
         <div className="container">
+            <h1>Who are we?</h1>
         </div>
+        
 
 
       </Fragment>
