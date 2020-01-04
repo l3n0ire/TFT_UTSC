@@ -1,6 +1,5 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
-import './Header.css'
+import {Link} from 'react-router-dom';
 
 function Header() {
     return (
@@ -15,7 +14,6 @@ function Header() {
     )
 } 
 const linkStyle={
-    display:'inline',
     color:'#fff',
     textDecoration:"none"
 }
