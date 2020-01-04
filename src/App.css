@@ -20,12 +20,10 @@ img{
 }
 .welcome-container{
   margin:2em 0;
-}
-.welcome-container.h1{
-  color:white;
-  font-size: large;
-}
-.welcome-img{
   height:80vh;
-  width:86vw;
+}
+.welcome-container h1{
+  color:white;
+  font-size: 100px;
+
 }

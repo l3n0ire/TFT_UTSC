@@ -30,9 +30,8 @@ class App extends Component {
       <Route exact path="/" render={props => (
         //Homepage content goes here
         <React.Fragment>
-          <h1>Teamfight UTSC</h1>
-          <div className="welcome-container">
-            <img className ="welcome-img" src={tft} alt="oops"/>
+          <div className="welcome-container" style={{backgroundImage: `url(${tft})`}}>
+            <h1>Teamfight UTSC</h1>
           </div>
         </React.Fragment>
       )}/>
