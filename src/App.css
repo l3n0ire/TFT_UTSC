@@ -7,16 +7,9 @@ body{
   line-height: 1.4;
   background-color: #f8f8f8;
 }
-a{
-  color: #333;
-  text-decoration: none;
-} 
 .container{
-  margin:0 8vw;
+  margin: 0 8vw;
   width: 86vw;
-}
-img{
-  max-width: 86vw;
 }
 .welcome-container{
   height:80vh;
