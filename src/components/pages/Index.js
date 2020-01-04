@@ -1,6 +1,10 @@
 import React from 'react';
 import {Fragment} from 'react';
 import './Index.css'
+import tournament from './images/tournament.jpg'
+import tutorial from './images/tutorial.jpg'
+import guide from './images/guide.jpg'
+
 
 function Index() {
     return (
@@ -18,6 +22,33 @@ function Index() {
 
             </p>
             <h1>What we do.</h1>
+
+            <div className="box-row">
+                <div className="box">
+                    <img src={tournament} alt="oops"/>
+                    <h1>Tournaments</h1>
+                    <p>
+                        Opportunity to gain first-hand experience casual and competitive tournament environment.
+                        
+                    </p>
+                </div>
+                <div className="box">
+                    <img src={tutorial} alt="oops"/>
+                    <h1>Tutorials</h1>
+                    <p>
+                    Gain valuable feedback and advice from experienced players to improve gameplay
+                    </p>
+                </div>
+                <div className="box">
+                    <img src={guide} alt="oops"/>
+                    <h1>Guides</h1>
+                    <p>
+                        Comprehensive guides that introduce new players to all aspects of the game from start to finish.
+                    </p>
+                </div>
+
+
+            </div>
 
         </div>
         

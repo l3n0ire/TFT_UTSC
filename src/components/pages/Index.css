@@ -9,7 +9,17 @@ body{
 }
 .container{
   margin: 0 8vw;
+  padding: 5vh 0;
   width: 86vw;
+  line-height: 2.5em;
+}
+.container h1{
+  font-size: 3em;
+  margin: 1em 0;
+}
+.container p{
+  font-size: 1.3em;
+
 }
 .welcome-container{
   height:80vh;
@@ -19,9 +29,25 @@ body{
   display : flex;
   align-items : center;
   justify-content: center;
-  margin-bottom: 10vh;
 }
 .welcome-container h1{
   color:white;
   font-size: 8em;
+}
+.box-row{
+  width:86vw;
+  display: flex;
+  
+}
+.box{
+  border: 1px #333 solid;
+  padding: 1vw;
+}
+.box h1{
+  flex:1;
+  font-size: 2em;
+
+}
+.box img{
+  max-width: 26vw;
 }
