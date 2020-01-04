@@ -21,7 +21,7 @@ img{
 .welcome-container{
   height:80vh;
   text-align: center;
-  background-image: url('images/tft.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/tft.jpg');
   background-size: cover;
   display : flex;
   align-items : center;
@@ -30,5 +30,4 @@ img{
 .welcome-container h1{
   color:white;
   font-size: 8em;
-  text-shadow: 2px 2px #333333;
 }
