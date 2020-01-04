@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 import Header from './components/Layout/Header';
 import About from './components/pages/About';
 import './App.css';
+import tft from'./images/tft.jpg'
 
 
 class App extends Component {
@@ -31,6 +32,7 @@ class App extends Component {
         <React.Fragment>
           
           <h1>This is the homepage</h1>
+          <img src={tft}></img>
         </React.Fragment>
       )}/>
       
