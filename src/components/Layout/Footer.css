@@ -1,0 +1,26 @@
+footer{
+    margin:0;
+    padding:10vh 8vw;
+    background-color: black;
+    color:white;
+    display: flex;
+}
+footer p{
+    font-size: 1.3em;
+    opacity: 0.7;
+
+}
+.box-left{
+    flex:1;
+}
+.box-left h1{
+    margin-bottom: 2vh;
+}
+.box-right{
+    flex:2;
+}
+.box-right h1{
+    border-bottom: 3px #fff solid;
+    width:10vw;
+}
+

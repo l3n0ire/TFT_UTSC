@@ -4,6 +4,7 @@ import './Index.css'
 import tournament from './images/tournament.jpg'
 import tutorial from './images/tutorial.jpg'
 import guide from './images/guide.jpg'
+import Footer from '../Layout/Footer'
 
 
 function Index() {
@@ -46,11 +47,11 @@ function Index() {
                         Comprehensive guides that introduce new players to all aspects of the game from start to finish.
                     </p>
                 </div>
-
-
             </div>
 
         </div>
+        <Footer></Footer>
+
         
 
 
