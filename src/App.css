@@ -23,6 +23,9 @@ img{
   text-align: center;
   background-image: url('images/tft.jpg');
   background-size: cover;
+  display : flex;
+  align-items : center;
+  justify-content: center;
 }
 .welcome-container h1{
   color:white;
