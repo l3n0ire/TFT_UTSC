@@ -1,0 +1,1 @@
+{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,EACE,QAAQ,CACR,SACF,CACA,KACE,sCAAyC,CACzC,eACF,CACA,EACE,UAAW,CACX,oBACF","file":"main.eed491e1.chunk.css","sourcesContent":["*{\n  margin:0;\n  padding:0;\n}\nbody{\n  font-family: Arial, Helvetica, sans-serif;\n  line-height: 1.4;\n}\na{\n  color: #333;\n  text-decoration: none;\n} "]}
