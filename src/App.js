@@ -8,11 +8,20 @@ import Index from './components/pages/Index'
 
 class App extends Component {
   state = {
-    todos:[]
+    color:'rgba(0,0,0,0)'
   }
   componentDidMount() {
     document.title = 'Teamfight UTSC';
+    window.addEventListener('scroll', this.listenScrollEvent)
   }
+  listenScrollEvent = e => {
+    if (window.scrollY > 400) {
+      this.setState({color: 'black'})
+    } else {
+      this.setState({color: 'rgba(0,0,0,0)'})
+    }
+  }
+
   render(){
   return (
     /* 
@@ -22,13 +31,12 @@ class App extends Component {
     */
     <Router>
     <div className="App">
-      <Header/>
-
+      <Header colour={this.state.color}/>
+      
 
       <Route exact path="/" component={Index}/>
       
       <Route path="/about" component = {About}/>
-
 
     </div>
     </Router>

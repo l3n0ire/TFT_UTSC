@@ -9,12 +9,15 @@
     flex:1;
 }
 header{
-    background:black;
     color:#fff;
     height :8vh;
-    padding: 1vh 8vw;
+    width: 100vw;
+    position: fixed;
     display:flex;
 }
 header h1{
     flex:10;
+}
+.active{
+    background: black;
 }
