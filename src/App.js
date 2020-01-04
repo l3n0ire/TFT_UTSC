@@ -10,6 +10,9 @@ class App extends Component {
   state = {
     todos:[]
   }
+  componentDidMount() {
+    document.title = 'Teamfight UTSC';
+  }
   render(){
   return (
     /* 
@@ -20,7 +23,7 @@ class App extends Component {
     <Router>
     <div className="App">
       <Header/>
-      
+
       <div className="container">
 
       <Route exact path="/" render={props => (
