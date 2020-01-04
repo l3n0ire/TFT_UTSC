@@ -19,12 +19,12 @@ class App extends Component {
     */
     <Router>
     <div className="App">
+      <Header/>
+      
       <div className="container">
 
-      <Header/>
-
       <Route exact path="/" render={props => (
-        //Homepage contentent goes here
+        //Homepage content goes here
         <React.Fragment>
           
           <h1>This is the homepage</h1>
@@ -34,6 +34,7 @@ class App extends Component {
       <Route path="/about" component = {About}/>
 
       </div>
+
     </div>
     </Router>
   );
