@@ -18,6 +18,8 @@ header{
     display:flex;
     transition: background 0.5s;
     padding:1em 8vw;    
+    align-items : center;
+    justify-content: center;
 }
 .title{
     color:#fff;
@@ -25,7 +27,6 @@ header{
     font-size: 2em;
     font-weight: 700;
     flex-basis: 90%;
-    margin:auto;
 }
 .active{
     background: black;
