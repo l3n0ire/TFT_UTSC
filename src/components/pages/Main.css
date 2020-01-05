@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+  box-sizing: border-box;
 }
 body{
   font-family: Arial, Helvetica, sans-serif;
@@ -8,9 +9,7 @@ body{
   background-color: #f8f8f8;
 }
 .container{
-  margin: 0 8vw;
-  padding: 5vh 0;
-  width: 86vw;
+  padding: 5vh 8vw;
   line-height: 2.5em;
 }
 .container h1{
@@ -35,16 +34,15 @@ body{
   font-size: 8em;
 }
 .box-row{
-  width:86vw;
   display: flex;
   
 }
 .box{
+  flex:1;
   border: 1px #333 solid;
   padding: 1vw;
 }
 .box h1{
-  flex:1;
   font-size: 2em;
 
 }

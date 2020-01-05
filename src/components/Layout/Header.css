@@ -1,23 +1,27 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 .link-style{
     color:#fff;
     text-decoration:none;
-    flex:1;
+    margin:auto;
+    flex-basis:10%;
 }
 header{
     color:#fff;
-    height :8vh;
+    height :10vh;
     width: 100vw;
     position: fixed;
     display:flex;
     transition: background 0.5s;
+    padding:1em 8vw;    
 }
 header h1{
-    flex:10;
+    flex-basis: 90%;
+    margin:auto;
 }
 .active{
     background: black;
