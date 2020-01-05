@@ -1,10 +1,10 @@
 import React from 'react';
 import {Fragment} from 'react';
-import './Index.css'
+import './Main.css'
 import tournament from './images/tournament.jpg'
 import tutorial from './images/tutorial.jpg'
 import guide from './images/guide.jpg'
-import Footer from '../Layout/Footer'
+import Footer from '../Layout/Footer.jsx'
 
 
 function Index() {
