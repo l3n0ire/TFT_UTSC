@@ -14,10 +14,10 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = { 
-      width: 0, 
+      width: 1024, 
       color:'rgba(0,0,0,0)',
       accent:'white',
-      display: 'flex'
+      display: 'flex',
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
