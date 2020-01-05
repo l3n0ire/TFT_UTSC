@@ -3,8 +3,11 @@ import { BrowserRouter as Router, Route} from 'react-router-dom';
 
 import Header from './components/Layout/Header.jsx';
 import About from './components/pages/About.jsx';
+import Tournaments from './components/pages/Tournaments.jsx';
+import Guides from './components/pages/Guides.jsx';
 import Index from './components/pages/Main'
 import Footer from './components/Layout/Footer.jsx';
+
 
 
 class App extends Component {
@@ -39,8 +42,9 @@ class App extends Component {
       
 
       <Route exact path="/" component={Index}/>
-      
       <Route path="/about" component = {About}/>
+      <Route path="/tournaments" component = {Tournaments}/>
+      <Route path="/guides" component = {Guides}/>
       <Footer></Footer>
 
     </div>

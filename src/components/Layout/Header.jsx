@@ -6,9 +6,12 @@ function Header(props) {
     return (
         <header style={{'background': props.colour}}>
             <Link className="title" to="/">Teamfight <span style={{'color': props.accent}}>UTSC</span></Link>
-            <Link className="link-style" to='/'>HOME</Link>
-            
-            <Link className="link-style" to='/about'>ABOUT</Link>
+            <div className="link-container">
+            <Link className="link-style" to='/'>Home</Link>
+            <Link className="link-style" to='/about'>About</Link>
+            <Link className="link-style" to='/tournaments'>Tournaments</Link>
+            <Link className="link-style" to='/guides'>Guides</Link>
+            </div>
 
         </header>
         

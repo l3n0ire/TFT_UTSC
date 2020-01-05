@@ -8,7 +8,13 @@
     color:#fff;
     text-decoration:none;
     margin:auto;
-    flex-basis:10%;
+    padding-right:5vw;
+}
+.link-container{
+    color:#fff;
+    text-decoration:none;
+    margin:auto;    
+    flex-basis:50%;
 }
 header{
     color:#fff;
@@ -26,7 +32,7 @@ header{
     text-decoration:none;
     font-size: 2em;
     font-weight: 700;
-    flex-basis: 90%;
+    flex-basis: 50%;
 }
 .active{
     background: black;
