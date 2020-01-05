@@ -9,7 +9,8 @@ import Footer from './components/Layout/Footer.jsx';
 
 class App extends Component {
   state = {
-    color:'rgba(0,0,0,0)'
+    color:'rgba(0,0,0,0)',
+    accent:'white'
   }
   componentDidMount() {
     document.title = 'Teamfight UTSC';
@@ -18,8 +19,10 @@ class App extends Component {
   listenScrollEvent = e => {
     if (window.scrollY > 200) {
       this.setState({color: '#192841'})
+      this.setState({accent: 'orange'})
     } else {
       this.setState({color: 'rgba(0,0,0,0)'})
+      this.setState({accent: 'white'})
     }
   }
 
@@ -32,7 +35,7 @@ class App extends Component {
     */
     <Router>
     <div className="App">
-      <Header colour={this.state.color}/>
+      <Header colour={this.state.color} accent={this.state.accent}/>
       
 
       <Route exact path="/" component={Index}/>
