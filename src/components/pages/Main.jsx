@@ -26,25 +26,31 @@ function Index() {
             <div className="box-row">
                 <div className="box">
                     <img src={tournament} alt="oops"/>
-                    <h1>Tournaments</h1>
-                    <p>
-                        Opportunity to gain first-hand experience casual and competitive tournament environment.
-                        
-                    </p>
+                    <div className="box-text">
+                        <h1>Tournaments</h1>
+                        <p>
+                            Opportunity to gain first-hand experience casual and competitive tournament environment.
+                            
+                        </p>
+                    </div>
                 </div>
                 <div className="box">
                     <img src={tutorial} alt="oops"/>
-                    <h1>Tutorials</h1>
-                    <p>
-                    Gain valuable feedback and advice from experienced players to improve gameplay
-                    </p>
+                    <div className="box-text">
+                        <h1>Tutorials</h1>
+                        <p>
+                        Gain valuable feedback and advice from experienced players to improve gameplay
+                        </p>
+                    </div>
                 </div>
                 <div className="box">
                     <img src={guide} alt="oops"/>
-                    <h1>Guides</h1>
-                    <p>
-                        Comprehensive guides that introduce new players to all aspects of the game from start to finish.
-                    </p>
+                    <div className="box-text">
+                        <h1>Guides</h1>
+                        <p>
+                            Comprehensive guides that introduce new players to all aspects of the game from start to finish.
+                        </p>
+                    </div>
                 </div>
             </div>
 

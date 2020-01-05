@@ -16,19 +16,28 @@ function About() {
                 <div className="box-row">
                     <div className="box">
                         <img src={president} alt="oops"/>
-                        <h1>President</h1>
+                        <div className="box-text">
+                            <h1>President</h1>
+                        </div>
                     </div>
                     <div className="box">
                         <img src={vice_president} alt="oops"/>
-                        <h1>Vice-President</h1>
+                        <div className="box-text">
+                            <h1>Vice-President</h1>
+                        </div>
                     </div>
                     <div className="box">
                         <img src={treasurer} alt="oops"/>
-                        <h1>Treasurer</h1>
+                        <div className="box-text">
+                            <h1>Treasurer</h1>
+                        </div>
                     </div>
                     <div className="box">
                         <img src={secretary} alt="oops"/>
-                        <h1>Secretary</h1>
+                        <div className="box-text">
+                            <h1>Secretary</h1>
+                        </div>
+
                     </div>
                 </div>
             </div>

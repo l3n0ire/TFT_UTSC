@@ -10,7 +10,7 @@ body{
      -moz-font-feature-settings: "liga" 0, "clig" 0;
           font-feature-settings: "liga" 0, "clig" 0;
   line-height: 1.4;
-  background-color: #f8f8f8;
+  background-color: #f6f6f6;
 }
 .container{
   padding: 3vh 8vw;
@@ -25,7 +25,6 @@ body{
 .container p{
   font-size: 1.5em;
   font-family: 'Hind Siliguri', sans-serif;
-  margin-left: 0.5vw;
 }
 .welcome-container{
   height:80vh;
@@ -41,22 +40,71 @@ body{
   font-size: 8em;
 }
 .box-row{
-  display: flex;
-  
+  grid-auto-rows: 1fr  
 }
 .box{
-  flex:1;
-  padding: 1vw;
-  border: 1px #fff solid;
+  margin-bottom: 2em;
+  background-color: #fff;
+  border: 1px #d3d3d3 solid;
 }
-.box:hover{
-  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  transition-duration: 0.2s;
-}
-.box h1{
-  font-size: 2em;
 
-}
+
 .box img{
   width:100%;
+  margin:0;
+  max-height: 80vh;
+}
+.box-text{
+  margin:-1em 0;
+  padding:2em;
+  padding-bottom: 3em;
+}
+.box-text h1{
+  font-size: 2em;
+  margin-top:0;
+
+}
+@media only screen and (min-width: 768px) {
+  .box-row{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+  .box{
+    margin-right: 1vw;
+  }
+
+}
+@media only screen and (min-width: 1024px) {
+  .box-row{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  .box{
+    margin-right: 1vw;
+  }
+  .box:hover{
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.2s;
+  }
+  .box h1{
+    font-size: 2em;
+  
+  }
+  .box img{
+    width:100%;
+  }
+  .box-text{
+    margin:-1em 0;
+    padding:1em;
+    padding-bottom: 2em;
+  }
+  .box-text h1{
+    font-size: 2em;
+    margin-top:0;
+  
+  }
+  
+
 }
