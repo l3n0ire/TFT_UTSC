@@ -21,7 +21,6 @@ header{
     height :10vh;
     width: 100vw;
     position: fixed;
-    display:flex;
     transition: background 0.5s;
     padding:1em 8vw;    
     align-items : center;

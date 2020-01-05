@@ -4,7 +4,7 @@ import './Header.css'
 
 function Header(props) {
     return (
-        <header style={{'background': props.colour}}>
+        <header style={{'background': props.colour, 'display': props.display}}>
             <Link className="title" to="/">Teamfight <span style={{'color': props.accent}}>UTSC</span></Link>
             <div className="link-container">
             <Link className="link-style" to='/'>Home</Link>
