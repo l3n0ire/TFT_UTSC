@@ -75,7 +75,7 @@ body{
   }
 
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
   .box-row{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
