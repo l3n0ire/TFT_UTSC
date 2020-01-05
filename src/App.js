@@ -15,8 +15,8 @@ class App extends Component {
     window.addEventListener('scroll', this.listenScrollEvent)
   }
   listenScrollEvent = e => {
-    if (window.scrollY > 400) {
-      this.setState({color: 'black'})
+    if (window.scrollY > 200) {
+      this.setState({color: '#192841'})
     } else {
       this.setState({color: 'rgba(0,0,0,0)'})
     }
