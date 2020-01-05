@@ -19,7 +19,11 @@ header{
     transition: background 0.5s;
     padding:1em 8vw;    
 }
-header h1{
+.title{
+    color:#fff;
+    text-decoration:none;
+    font-size: 2em;
+    font-weight: 700;
     flex-basis: 90%;
     margin:auto;
 }
