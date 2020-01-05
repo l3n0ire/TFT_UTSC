@@ -9,7 +9,20 @@ function About() {
             </div>
             <div className="container">
                 <h1>Our team</h1>
-                
+                <div className="box-row">
+                    <div className="box">
+                        <h1>President</h1>
+                    </div>
+                    <div className="box">
+                        <h1>Vice-President</h1>
+                    </div>
+                    <div className="box">
+                        <h1>Treasurer</h1>
+                    </div>
+                    <div className="box">
+                        <h1>Secretary</h1>
+                    </div>
+                </div>
             </div>
         </Fragment>
     )
