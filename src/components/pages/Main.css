@@ -6,6 +6,9 @@
 }
 body{
   font-family: 'Lato', sans-serif;
+  -webkit-font-feature-settings: "liga" 0, "clig" 0;
+     -moz-font-feature-settings: "liga" 0, "clig" 0;
+          font-feature-settings: "liga" 0, "clig" 0;
   font-weight: 500;
   line-height: 1.4;
   background-color: #f8f8f8;
