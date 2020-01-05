@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
-import { Transition } from 'react-transition-group';
 
 import Header from './components/Layout/Header.jsx';
 import About from './components/pages/About.jsx';
