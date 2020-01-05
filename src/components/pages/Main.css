@@ -37,7 +37,7 @@ body{
 }
 .welcome-container h1{
   color:white;
-  font-size: 8em;
+  font-size: 3em;
 }
 .box-row{
   grid-auto-rows: 1fr  
@@ -73,9 +73,15 @@ body{
   .box{
     margin-right: 1vw;
   }
+  .welcome-container h1{
+    font-size: 4em;
+  }
 
 }
 @media only screen and (min-width: 1025px) {
+  .welcome-container h1{
+    font-size: 8em;
+  }
   .box-row{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
