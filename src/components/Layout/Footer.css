@@ -22,4 +22,15 @@ footer p{
     border-bottom: 3px #fff solid;
     width:7vw;
 }
+ul{
+    list-style:none;
+    margin-top: 1em;
+}
+.link-style{
+    color:#fff;
+    text-decoration:none;
+    font-size: 1.3em;
+    opacity: 0.7;
+}
+
 

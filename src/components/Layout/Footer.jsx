@@ -1,6 +1,7 @@
 import React from 'react';
 import {Fragment} from 'react';
 import './Footer.css'
+import {Link} from 'react-router-dom';
 
 function Footer() {
     return (
@@ -19,6 +20,11 @@ function Footer() {
                 </div>
                 <div className="box-right">
                     <h1>Links</h1>
+                    <ul>
+                        <li><Link className="link-style" to="/">Home</Link></li>
+                        <li><Link className="link-style" to="/about">About</Link></li>
+
+                    </ul>
                 </div>
             
             </footer>

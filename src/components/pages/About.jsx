@@ -1,5 +1,9 @@
 import React from 'react';
 import {Fragment} from 'react';
+import president from './images/president.png'
+import vice_president from './images/vice-president.png'
+import treasurer from './images/treasurer.png'
+import secretary from './images/secretary.png'
 
 function About() {
     return (
@@ -11,15 +15,19 @@ function About() {
                 <h1>Our team</h1>
                 <div className="box-row">
                     <div className="box">
+                        <img src={president} alt="oops"/>
                         <h1>President</h1>
                     </div>
                     <div className="box">
+                        <img src={vice_president} alt="oops"/>
                         <h1>Vice-President</h1>
                     </div>
                     <div className="box">
+                        <img src={treasurer} alt="oops"/>
                         <h1>Treasurer</h1>
                     </div>
                     <div className="box">
+                        <img src={secretary} alt="oops"/>
                         <h1>Secretary</h1>
                     </div>
                 </div>

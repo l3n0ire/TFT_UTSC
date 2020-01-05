@@ -47,6 +47,11 @@ body{
 .box{
   flex:1;
   padding: 1vw;
+  border: 1px #fff solid;
+}
+.box:hover{
+  box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition-duration: 0.2s;
 }
 .box h1{
   font-size: 2em;
