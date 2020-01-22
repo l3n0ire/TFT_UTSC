@@ -27,9 +27,9 @@ body{
   font-family: 'Hind Siliguri', sans-serif;
 }
 .welcome-container{
-  height:80vh;
+  height:100vh;
   text-align: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('images/tft.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/tft.jpg');
   background-size: cover;
   display : flex;
   align-items : center;
