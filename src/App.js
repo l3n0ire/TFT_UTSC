@@ -63,7 +63,7 @@ class App extends Component {
     <div className="App">
 
       <Header colour={this.state.color} accent={this.state.accent} display={this.state.display}/>
-      <Sidebar></Sidebar>
+      <Sidebar colour={this.state.color} accent={this.state.accent} display={this.state.displayM}></Sidebar>
 
 
       <Route exact path="/" component={Index}/>
