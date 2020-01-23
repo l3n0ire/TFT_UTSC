@@ -22,7 +22,6 @@
   }
   
   .showcase {
-    background: var(--primary-color);
     color: #fff;
     height: 100vh;
     position: relative;
@@ -59,7 +58,6 @@
   .btn {
     display: inline-block;
     border: none;
-    background: var(--primary-color);
     color: #fff;
     padding: 0.75rem 1.5rem;
     margin-top: 1rem;
@@ -98,7 +96,6 @@
       width: 60px;
       height: 60px;
       padding: 1rem;
-      background: var(--primary-color);
       display: flex;
       align-items: center;
       justify-content: center;
