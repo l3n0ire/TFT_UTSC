@@ -1,5 +1,7 @@
 import React from 'react'
 import './Sidebar.css';
+import {Link} from 'react-router-dom';
+
 
 
 export default function Sidebar() {
@@ -12,11 +14,11 @@ export default function Sidebar() {
       <div>
         <div>
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
+            <li><Link className="link-style" to='/'>Home</Link></li>
+            <li><Link className="link-style" to='/about'>About</Link></li>
+            <li><Link className="link-style" to='/tournaments'>Tournaments</Link></li>
+            <li><Link className="link-style" to='/guides'>Guides</Link></li>
+        </ul>
         </div>
       </div>
     </div>

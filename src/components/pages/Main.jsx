@@ -4,7 +4,7 @@ import './Main.css'
 import tournament from './images/tournament.jpg'
 import tutorial from './images/tutorial.jpg'
 import guide from './images/guide.jpg'
-import Sidebar from '../Layout/Sidebar'
+
 
 function Index() {
     return (
@@ -12,7 +12,6 @@ function Index() {
         <div className="welcome-container">
           <h1>Teamfight UTSC</h1>
         </div>
-        <Sidebar></Sidebar>
         
 
         <div className="container">
