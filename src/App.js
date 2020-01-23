@@ -7,6 +7,7 @@ import About from './components/pages/About.jsx';
 import Guides from './components/pages/Guides.jsx';
 import Index from './components/pages/Main'
 import Footer from './components/Layout/Footer.jsx';
+import Sidebar from './components/Layout/Sidebar.jsx';
 
 
 
@@ -18,6 +19,7 @@ class App extends Component {
       color:'rgba(0,0,0,0)',
       accent:'white',
       display: 'flex',
+      displayM: 'none',
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
@@ -34,8 +36,10 @@ class App extends Component {
     this.setState({width: window.innerWidth});
     if (this.state.width < 768) {
       this.setState({display: 'none'})
+      this.setState({displayM: 'flex'})
     } else {
       this.setState({display: 'flex'})
+      this.setState({displayM: 'none'})
     }
   }
   listenScrollEvent = e => {
@@ -59,7 +63,6 @@ class App extends Component {
     <div className="App">
 
       <Header colour={this.state.color} accent={this.state.accent} display={this.state.display}/>
-      
 
       <Route exact path="/" component={Index}/>
       <Route path="/about" component = {About}/>
