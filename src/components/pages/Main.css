@@ -67,6 +67,12 @@ body{
 .box-text p{
   font-size: 1.3em;
 }
+
+.linky {
+  text-decoration: none;
+  color: black;
+}
+
 @media only screen and (min-width: 768px) {
   .box-row{
     display: grid;

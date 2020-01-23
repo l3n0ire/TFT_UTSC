@@ -4,6 +4,7 @@ import './Main.css'
 import tournament from './images/tournament.jpg'
 import tutorial from './images/tutorial.jpg'
 import guide from './images/guide.jpg'
+import {Link} from 'react-router-dom';
 
 
 function Index() {
@@ -26,34 +27,40 @@ function Index() {
             <h1>What we do.</h1>
 
             <div className="box-row">
-                <div className="box">
-                    <img src={tournament} alt="oops"/>
-                    <div className="box-text">
-                        <h1>Tournaments</h1>
-                        <p>
-                            Opportunity to gain first-hand experience casual and competitive tournament environment.
-                            
-                        </p>
+                <Link className="linky" to='/tournaments'>
+                    <div className="box">
+                        <img src={tournament} alt="oops"/>
+                        <div className="box-text">
+                            <h1>Tournaments</h1>
+                            <p>
+                                Opportunity to gain first-hand experience casual and competitive tournament environment.
+                                
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div className="box">
-                    <img src={tutorial} alt="oops"/>
-                    <div className="box-text">
-                        <h1>Tutorials</h1>
-                        <p>
-                        Gain valuable feedback and advice from experienced players to improve gameplay
-                        </p>
+                </Link>
+                <Link className="linky" to='/guides'>
+                    <div className="box">
+                        <img src={tutorial} alt="oops"/>
+                        <div className="box-text">
+                            <h1>Tutorials</h1>
+                            <p>
+                            Gain valuable feedback and advice from experienced players to improve gameplay
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div className="box">
-                    <img src={guide} alt="oops"/>
-                    <div className="box-text">
-                        <h1>Guides</h1>
-                        <p>
-                            Comprehensive guides that introduce new players to all aspects of the game from start to finish.
-                        </p>
+                </Link>
+                <Link className="linky" to='/guides'>
+                    <div className="box">
+                        <img src={guide} alt="oops"/>
+                        <div className="box-text">
+                            <h1>Guides</h1>
+                            <p>
+                                Comprehensive guides that introduce new players to all aspects of the game from start to finish.
+                            </p>
+                        </div>
                     </div>
-                </div>
+                </Link>
             </div>
 
         </div>
