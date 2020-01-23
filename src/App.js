@@ -20,6 +20,7 @@ class App extends Component {
       accent:'white',
       display: 'flex',
       displayM: 'none',
+      textdisplay: 'none',
     };
     this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
   }
@@ -46,9 +47,11 @@ class App extends Component {
     if (window.scrollY > 200) {
       this.setState({color: '#192841'})
       this.setState({accent: 'orange'})
+      this.setState({textdisplay: 'inline'})
     } else {
       this.setState({color: 'rgba(0,0,0,0)'})
       this.setState({accent: 'white'})
+      this.setState({textdisplay: 'none'})
     }
   }
 
@@ -63,7 +66,7 @@ class App extends Component {
     <div className="App">
 
       <Header colour={this.state.color} accent={this.state.accent} display={this.state.display}/>
-      <Sidebar colour={this.state.color} accent={this.state.accent} display={this.state.displayM}></Sidebar>
+      <Sidebar colour={this.state.color} accent={this.state.accent} display={this.state.displayM} textdisplay={this.state.textdisplay}></Sidebar>
 
 
       <Route exact path="/" component={Index}/>

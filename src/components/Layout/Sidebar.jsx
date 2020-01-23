@@ -8,8 +8,8 @@ export default function Sidebar(props) {
     return (     
       <div style={{'display': props.display}}>
         <header style={{'background': props.colour}}>
-            <Link className="title" to="/">Teamfight <span style={{'color': props.accent}}>UTSC</span></Link>
-        </header> 
+          <Link className="title" to="/" style={{'display': props.textdisplay}}>Teamfight <span style={{'color': props.accent}}>UTSC</span></Link>
+        </header>  
         <div class="menu-wrap" >
           <input type="checkbox" class="toggler"/>
             <div class="hamburger"><div></div></div>
