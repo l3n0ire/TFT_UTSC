@@ -7,6 +7,7 @@ function Footer() {
     return (
         <Fragment>
             <footer>
+                <div class="footer-container">
                 <div className="box-left">
                     <h1>Teamfight UTSC</h1>
                     <p>
@@ -28,7 +29,7 @@ function Footer() {
 
                     </ul>
                 </div>
-            
+                </div>
             </footer>
         </Fragment>
     )

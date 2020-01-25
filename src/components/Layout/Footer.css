@@ -3,26 +3,27 @@ footer{
     padding:10vh 8vw;
     background-color: #192841;
     color:white;
-    display: flex;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+   
     
 }
+
 footer p{
     font-size: 1.3em;
     opacity: 0.7;
 }
 .box-left{
-    padding-right: 1em;
+    padding:1em;
+
 }
 .box-left h1{
     margin-bottom: 2vh;
 }
 .box-right{
+    padding:1em;
 }
 .box-right h1{
     border-bottom: 3px #fff solid;
-    width:7vw;
+    width:3em;
 }
 ul{
     list-style:none;
@@ -37,6 +38,20 @@ ul{
 .link-style:hover{
     opacity: 1;
     transition-duration: 0.2s;
+}
+@media only screen and (min-width: 700px) {
+    .footer-container{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media only screen and (min-width: 701px) {
+    .footer-container{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
