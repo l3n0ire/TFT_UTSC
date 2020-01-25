@@ -9,6 +9,8 @@ import Index from './components/pages/Main'
 import Footer from './components/Layout/Footer.jsx';
 import Sidebar from './components/Layout/Sidebar.jsx';
 
+import ScrollToTop from 'react-router-scroll-top'
+
 
 
 class App extends Component {
@@ -55,6 +57,7 @@ class App extends Component {
       this.setState({textdisplay: 'none'})
     }
   }
+  
 
   render(){
   return (
@@ -64,6 +67,7 @@ class App extends Component {
 
     */
     <Router>
+      <ScrollToTop>
     <div className="App">
 
       <Header colour={this.state.color} accent={this.state.accent} display={this.state.width < 768? "none": "flex"}/>
@@ -77,6 +81,7 @@ class App extends Component {
       <Footer></Footer>
 
     </div>
+    </ScrollToTop>
     </Router>
   );
   }
