@@ -26,8 +26,9 @@ class App extends Component {
   }
   componentDidMount() {
     document.title = 'Teamfight UTSC';
-    window.addEventListener('scroll', this.listenScrollEvent)
     this.updateWindowDimensions();
+    window.addEventListener('scroll', this.listenScrollEvent)
+    
     window.addEventListener('resize', this.updateWindowDimensions);
   }
   componentWillUnmount() {
@@ -65,8 +66,8 @@ class App extends Component {
     <Router>
     <div className="App">
 
-      <Header colour={this.state.color} accent={this.state.accent} display={this.state.display}/>
-      <Sidebar colour={this.state.color} accent={this.state.accent} display={this.state.displayM} textdisplay={this.state.textdisplay}></Sidebar>
+      <Header colour={this.state.color} accent={this.state.accent} display={this.state.width < 768? "none": "flex"}/>
+      <Sidebar colour={this.state.color} accent={this.state.accent} display={this.state.width < 768? "flex": "none"} textdisplay={this.state.textdisplay}></Sidebar>
 
 
       <Route exact path="/" component={Index}/>
