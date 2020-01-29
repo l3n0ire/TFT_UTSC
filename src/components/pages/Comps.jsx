@@ -1,14 +1,28 @@
 import React from 'react'
 import  data from './comps.json'
 
-const comps = data.metaComp;
+const metaComps = data.metaComps;
 
 function Comps() {
     return (
         <div>
-            <ul>
-                {comps.map(s => (<li>{s}</li>))}
-            </ul>
+            
+                {
+                metaComps.map(comp => 
+                    <div>
+                    
+                        {
+                            
+                            comp.champs.map(champName=>
+                                <div>
+                                    {champName}
+                                    </div>
+                                )
+                        }
+                        </div>
+                    )
+                }
+            
             
         </div>
     )
