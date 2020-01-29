@@ -11,6 +11,7 @@ function Header(props) {
                 <Link className="link-style" to='/about'>About</Link>
                 <Link className="link-style" to='/tournaments'>Tournaments</Link>
                 <Link className="link-style" to='/guides'>Guides</Link>
+                <Link className="link-style" to='/comps'>Comps</Link>
             </div>
 
         </header>

@@ -24,7 +24,7 @@ function Index() {
                 UTSC’s mission is to introduce new players to competitive or casual Teamfight Tactics.
 
             </p>
-            <h1>What we do.</h1>
+            <h1>What we do?</h1>
 
             <div className="box-row">
                 <Link className="linky" to='/tournaments'>

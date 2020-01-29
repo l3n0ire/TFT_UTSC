@@ -1,0 +1,21 @@
+
+.row{
+    background-color: #192841;
+    color:white;
+    padding:1em;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+
+}
+.row p{
+    display:inline;
+    padding-right: 1em;
+    grid-column: 2 / span 3;
+}
+.row h1{
+    margin:0;
+    grid-column: 1 / span 3;
+    
+
+}

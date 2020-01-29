@@ -26,6 +26,7 @@ function Footer() {
                         <li><Link className="link-style" to='/about'>About</Link></li>
                         <li><Link className="link-style" to='/tournaments'>Tournaments</Link></li>
                         <li><Link className="link-style" to='/guides'>Guides</Link></li>
+                        <li><Link className="link-style" to='/comps'>Comps</Link></li>
 
                     </ul>
                 </div>

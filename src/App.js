@@ -65,8 +65,8 @@ class App extends Component {
       <ScrollToTop>
     <div className="App">
 
-      <Header colour={this.state.color} accent={this.state.accent} display={this.state.width < 768? "none": "flex"}/>
-      <Sidebar colour={this.state.color} accent={this.state.accent} display={this.state.width < 768? "flex": "none"} textdisplay={this.state.textdisplay}></Sidebar>
+      <Header colour={this.state.color} accent={this.state.accent} display={this.state.width < 1024? "none": "flex"}/>
+      <Sidebar colour={this.state.color} accent={this.state.accent} display={this.state.width < 1024? "flex": "none"} textdisplay={this.state.textdisplay}></Sidebar>
 
 
       <Route exact path="/" component={Index}/>
