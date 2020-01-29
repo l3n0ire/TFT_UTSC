@@ -8,6 +8,7 @@ import Guides from './components/pages/Guides.jsx';
 import Index from './components/pages/Main'
 import Footer from './components/Layout/Footer.jsx';
 import Sidebar from './components/Layout/Sidebar.jsx';
+import Comps from './components/pages/Comps.jsx';
 
 import ScrollToTop from 'react-router-scroll-top'
 
@@ -38,13 +39,7 @@ class App extends Component {
   }
   updateWindowDimensions() {
     this.setState({width: window.innerWidth});
-    if (this.state.width < 768) {
-      this.setState({display: 'none'})
-      this.setState({displayM: 'flex'})
-    } else {
-      this.setState({display: 'flex'})
-      this.setState({displayM: 'none'})
-    }
+    
   }
   listenScrollEvent = e => {
     if (window.scrollY > 200) {
@@ -78,6 +73,7 @@ class App extends Component {
       <Route path="/about" component = {About}/>
       <Route path="/tournaments" component = {Tournaments}/>
       <Route path="/guides" component = {Guides}/>
+      <Route path="/comps" component = {Comps}/>
       <Footer></Footer>
 
     </div>
