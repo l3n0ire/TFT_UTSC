@@ -1,13 +1,17 @@
 {
     "metaComps":[
         {
-            "title":"6 lights",
+            "tier":"S",
+            "title":"Poison Rangers",
             "champs":[
-                    "Renekton",
-                    "Kog'Maw",
-                    "Leona",
-                    "Braum",
-                    "Nasus"
+                    "Varus",
+                    "DrMundo",
+                    "Kindred",
+                    "Ashe",
+                    "Twitch",
+                    "Amumu",
+                    "Singed",
+                    "Taric"
 
                 
             ]
@@ -15,11 +19,12 @@
         },
 
         {
+            "tier":"S",
             "title":"6 infernos",
             "champs":[
                 
                 "Renekton",
-                "Kog'Maw"
+                "Braum"
 
                 
                 

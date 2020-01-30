@@ -18,18 +18,20 @@ function Comps() {
             {
                 metaComps.map(comp => 
                     <div className="row">
-                        <h1>{comp.title}</h1>
+                        <h2>{comp.title} {comp.tier+"     tier"}</h2>
+                        <div className ="champs">
                         {
                             comp.champs.map(champName=>
-                                <div>
+                                <div className="champ">
                                 <p>
                                     
                                     {champName}
                                 </p>
-                                <img className="compImg" src={require('./images/Champs/'+champName+'.jpg')}></img>
+                                <img className="compImg" src={require('./images/Champs/'+champName+'.png')}></img>
                                 </div>
                             )
                         }
+                        </div>
                     </div>
                 )
             }
