@@ -1,6 +1,6 @@
 import React from 'react';
 import {Fragment} from 'react';
-import './Main.css'
+import './styles/Main.css'
 import tournament from './images/tournament.jpg'
 import tutorial from './images/tutorial.jpg'
 import guide from './images/guide.jpg'

@@ -1,6 +1,6 @@
 import React from 'react'
 import  data from './comps.json'
-import './compstyle.css'
+import './styles/Comps.css'
 import {Fragment} from 'react';
 
 
