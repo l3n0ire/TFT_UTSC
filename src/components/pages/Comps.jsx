@@ -26,7 +26,7 @@ function Comps() {
                                     
                                     {champName}
                                 </p>
-                                <img src={require('./images/Champs/'+champName+'.jpg')}></img>
+                                <img className="compImg" src={require('./images/Champs/'+champName+'.jpg')}></img>
                                 </div>
                             )
                         }

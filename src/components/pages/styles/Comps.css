@@ -4,22 +4,24 @@
     color:white;
     padding:1em;
     display:grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
    
 
 }
 .row p{
-    display:inline;
+    display:block;
     padding-right: 1em;
-    grid-column: 2 / span 3;
 }
 .row h1{
     margin:0;
-    grid-column: 1 / span 3;
+    display:inline;
+    grid-column-start: 1;
     
 
 }
-img{
-    width:200px;
+
+.compImg{
+    width:100px;
     height:100px;
+
 }
