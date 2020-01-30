@@ -1,9 +1,6 @@
 import React from 'react';
 import {Fragment} from 'react';
-import data from "./Tournaments.json";
-import "./styles/Tournaments.css"
 
-const tourney = data.Tournaments;
 
 function Tournaments() {
     return (
@@ -13,16 +10,7 @@ function Tournaments() {
             </div>
             <div className="container">
                 <h1>January Tournaments</h1>
-                <p>In order to participate in a tournament, you must have an NA account.</p>
-                {
-                tourney.map(t => 
-                    <div className="tournament">
-                        <div>{t.date}</div>
-                        <div>{t.type}</div>   
-                        <a href={t.url}><div>Register Here</div></a>
-                    </div>
-                )
-            }
+                
             </div>
         </Fragment>
     )
