@@ -12,6 +12,18 @@
 .tournament div
 {
     color: white;
-    border-right: 1px solid grey;
+    border-right: 1.2px solid grey;
     padding: 1em;
+}
+
+.tournament div:hover
+{
+    border: 1.2px solid grey;
+
+}
+
+.tournament a
+{
+    
+    text-decoration: none;
 }

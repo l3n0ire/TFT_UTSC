@@ -1,7 +1,8 @@
 import React from 'react';
 import {Fragment} from 'react';
-import data from "./Tournaments.json";
-import "./styles/Tournaments.css"
+import data from './Tournaments.json';
+import './styles/Tournaments.css';
+
 
 const tourney = data.Tournaments;
 
@@ -17,8 +18,12 @@ function Tournaments() {
                 {
                 tourney.map(t => 
                     <div className="tournament">
-                        <div>{t.date}</div>
-                        <div>{t.type}</div>   
+                        <div>
+                            <p>{t.date}</p>
+                        </div>
+                        <div>
+                            <p>{t.type}</p>
+                        </div>   
                         <a href={t.url}><div>Register Here</div></a>
                     </div>
                 )

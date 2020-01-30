@@ -2,25 +2,25 @@
     "Tournaments":
     [
         {
-            "date": "January 7th, 2020",
+            "date": "January 7th, 2020 @1:00PM",
             "type": "Double Elimination",
             "url": "https://www.google.ca/" 
         },
 
         {
-            "date": "January 14th, 2020",
+            "date": "January 14th, 2020 @1:00PM",
             "type": "Single Elimination",
             "url": "https://www.google.ca/" 
         },
 
         {
-            "date": "January 21st, 2020",
+            "date": "January 21st, 2020 @1:00PM",
             "type": "Winner Takes All",
             "url": "https://www.google.ca/" 
         },
 
         {
-            "date": "January 28th, 2020",
+            "date": "January 28th, 2020 @1:00PM",
             "type": "No Frontline",
             "url": "https://www.google.ca/" 
         }
