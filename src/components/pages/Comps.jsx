@@ -21,10 +21,13 @@ function Comps() {
                         <h1>{comp.title}</h1>
                         {
                             comp.champs.map(champName=>
+                                <div>
                                 <p>
                                     
                                     {champName}
                                 </p>
+                                <img src={require('./images/'+champName+'.jpg')}></img>
+                                </div>
                             )
                         }
                     </div>
