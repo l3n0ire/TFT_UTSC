@@ -14,40 +14,54 @@
     box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition-duration: 0.2s;
   }
-.compName{
-    width:30vw;
-}
 
-.champs{
-   
-    display:grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: repeat(1,1fr);
-}
+
+
 @media only screen and (max-width: 768px) {
+    .compName{
+        width:30vw;
+        font-size: 0.8em;
+    }
+    .champs{
+   
+        display:grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: repeat(1,1fr);
+    }
 
     .champ{
-        width:3.5em;
-        height:3.5em;
+        width:4em;
+        height:4em;
+        font-size: 0.8em;
         text-align: center;
-        margin-bottom: 1em;
+        margin-bottom: 3em;
     }
     .compImg{
-        width:2em;
-        height:2em;
+        width:3.5em;
+        height:3.5em;
     
     }
 }
 @media only screen and (min-width: 769px) {
-.champ{
-    width:5.5em;
-    height:5.5em;
-    text-align: center;
-    margin-bottom: 1em;
-}
-.compImg{
-    width:3em;
-    height:3em;
+    .compName{
+        width:30vw;
+        font-size: 1em;
+    }
+    .champs{
 
-}
+        display:grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: repeat(1,1fr);
+    }
+    .champ{
+        width:5.5em;
+        height:5.5em;
+        text-align: center;
+        margin-bottom: 1em;
+    }
+    .compImg{
+        width:3em;
+        height:3em;
+
+    }
 }
