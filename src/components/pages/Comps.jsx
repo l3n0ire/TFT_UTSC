@@ -17,8 +17,9 @@ function Comps() {
             <div className="container">
             {
                 metaComps.map(comp => 
+                    <div className="wrap">
                     <div className="row">
-                        <h2>{comp.title} {comp.tier+"     tier"}</h2>
+                        <div className="compName"><h2>{comp.title} {comp.tier+"     tier"}</h2></div>
                         <div className ="champs">
                         {
                             comp.champs.map(champName=>
@@ -32,6 +33,7 @@ function Comps() {
                             )
                         }
                         </div>
+                    </div>
                     </div>
                 )
             }
